@@ -28,7 +28,7 @@ services:
       - elk
 
   kibana:
-    build: "docker.elastic.co/kibana/kibana:5.3.0"
+    image: "docker.elastic.co/kibana/kibana:5.3.0"
     #volumes:
     #  - ./kibana/config/:/usr/share/kibana/config
     ports:
